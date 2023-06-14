@@ -1,0 +1,71 @@
+/* general settings start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+/* general settings end */
+
+/* header start */
+.header {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    background-color: blue;
+    font-size: larger;
+}
+/* header end */
+
+/* searchbar start */
+.searchbar {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+
+}
+
+.search {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 2rem;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+/* searchbar end */
+
+/* box start   */
+.box {
+    padding-right: 800px;
+    padding-bottom: 150px;
+    border: 2px;
+    border-style: solid;
+}
+/* box end */
+
+/* row1 start */
+.row1 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+/* row1 end */
+
+/* 5day start */
+.daycast {
+    position: relative; right: -240px;
+    padding-top: 22px;
+    font-size: large;
+}
+/* 5day end */
